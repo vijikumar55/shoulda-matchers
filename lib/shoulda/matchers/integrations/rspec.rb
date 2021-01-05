@@ -1,5 +1,5 @@
 # :enddoc:
-
+require 'rspec'
 if defined?(::ActiveRecord)
   require 'shoulda/matchers/active_record'
   require 'shoulda/matchers/active_model'
